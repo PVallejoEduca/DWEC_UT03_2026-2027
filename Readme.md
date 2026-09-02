@@ -1,5 +1,3 @@
-![Portada de DWEC - UT03](./assets/repo-cover-dwec-2026-2027.png)
-
 # DWEC UT03: Modelo de objetos del documento (DOM) y gestión de eventos.
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
 
