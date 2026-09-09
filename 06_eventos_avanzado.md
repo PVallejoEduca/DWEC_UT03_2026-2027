@@ -2,7 +2,7 @@
 
 ## Gestión de eventos avanzada
 
-Vamos a seguir profundizando en la gestión de eventos 
+Vas a seguir profundizando en la gestión de eventos 
 
 ## El objeto `event`
 
@@ -32,7 +32,7 @@ Algunas propiedades del objeto event:
 
 Dicho evento contiene una serie de propiedades interesantes a la hora de trabajar con el evento en cuestión, y dependen del tipo de evento. Por ejemplo, en el ejemplo anterior hemos gestionado un evento `click`, por lo que el tipo de evento asociado es `PointerEvent`, y conlleva una serie de propiedades que no tienen porque estar presentes en otros tipos de eventos.
 
-> Aqui podeis consultar todas las propiedades del objeto `event. [Enlace](https://developer.mozilla.org/en-US/docs/Web/API/Event#instance_properties)
+> Aqui puedes consultar todas las propiedades del objeto `event. [Enlace](https://developer.mozilla.org/en-US/docs/Web/API/Event#instance_properties)
 
 ## Propagación y captura
 ### Propagación
@@ -73,7 +73,7 @@ Y así sucesivamente hasta el objeto `document`. Este proceso se conoce como **p
 </p>
 
 > #### *Tener en cuenta que ...*
-> No todos los elementos se propagan. Por ejemplo, un evento `focus` no se propaga. Hay otros ejemplos también, los veremos. Pero aún así, esta es la excepción a la regla, la *mayoría de eventos sí se propagan*.
+> No todos los elementos se propagan. Por ejemplo, un evento `focus` no se propaga. Hay otros ejemplos también, los verás. Pero aún así, esta es la excepción a la regla, la *mayoría de eventos sí se propagan*.
 
 ### Propiedad `event.target`
 
@@ -186,7 +186,7 @@ Para atrapar un evento en la fase de captura, necesitamos preparar la opción `c
 
 ### Opciones de `addEventListener`
 
-Al utilizar el método `addEventListener`, se puede indicar un tercer parámetro opcional. Se trata de un objeto opcional en el cual podemos indicar alguna de las siguientes opciones para modificar alguna característica del listener en cuestión que vamos a crear:
+Al utilizar el método `addEventListener`, se puede indicar un tercer parámetro opcional. Se trata de un objeto opcional en el cual podemos indicar alguna de las siguientes opciones para modificar alguna característica del listener en cuestión que vas a crear:
 
 * En primer lugar, la opción `capture` nos permite modificar la modalidad en la que escuchará el evento (`capture/bubble`). Esto, básicamente, lo que hace es modificar en que momento se procesa el evento.
 * En segundo lugar, la opción `once` nos permite indicar que el evento se procesará solo la primera vez que se dispare un evento. Internamente, lo que hace es ejecutarse una primera vez y luego llamar al `removeEventListener`, eliminando el listener una vez ha sido ejecutado.

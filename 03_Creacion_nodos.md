@@ -4,7 +4,7 @@
 
 Lo normal suele ser crear código HTML desde un fichero HTML "estático". Sin embargo, y sobre todo con el auge de las páginas SPA (Single Page Application) y los frameworks o librerías Javascript, esto ha cambiado bastante y es muy frecuente crear código HTML desde Javascript de forma "dinámica".
 
-La modificación del DOM es la clave para crear páginas “vivas” (dinámicas). Aquí veremos cómo crear nuevos elementos “al vuelo” y modificar el contenido existente de la página.
+La modificación del DOM es la clave para crear páginas “vivas” (dinámicas). Aquí verás cómo crear nuevos elementos “al vuelo” y modificar el contenido existente de la página.
 
 ### Creación de nodos
 
@@ -25,7 +25,7 @@ const p = document.createElement("p");          // Creamos un <p></p>
 const img = document.createElement("img");      // Creamos un <img>
 ```
 
-Para crear nodos de texto o comentario utilizaremos de la misma manera los metodos correspondientes. Aunque tal vez no sea tan habitual utilizar estos metodos.
+Para crear nodos de texto o comentario utilizarás de la misma manera los metodos correspondientes. Aunque tal vez no sea tan habitual utilizar estos metodos.
 
 ```js
 const comentario = document.createComment("Comentario");    // <!--Comentario-->
@@ -49,11 +49,11 @@ La propiedad `isConnected` nos indica si el elemento en cuestión está conectad
 
 ### Insertando nodos en el DOM
 
-Hasta ahora, hemos creado elementos que no están en el DOM (permanecen sólo en memoria). Veremos como insertarlos en el documento HTML para que aparezca visualmente en la página.
+Hasta ahora, hemos creado elementos que no están en el DOM (permanecen sólo en memoria). Verás como insertarlos en el documento HTML para que aparezca visualmente en la página.
 
 Aunque mediante propiedades como `.innerHTML` podemos insertar elementos en el DOM de un documento HTML, en muchas ocasiones quizás no es la mejor forma.
 
-Vamos a ver  3 formas (de más tradicional a más moderna) de inserción o modificación de elementos:
+Vas a ver  3 formas (de más tradicional a más moderna) de inserción o modificación de elementos:
 
 * La API de nodos
 * La API de elementos

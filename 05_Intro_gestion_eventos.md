@@ -33,13 +33,13 @@ Eventos del CSS:
 
 * `transitionend` – cuando una animación CSS concluye.
 
-> Las lista de todos los eventos es muy extensa, podeis consultarla en direfentes páginas en internet, yo os dejo esta de ejemplo. [Elnace](https://omken.medium.com/javascript-events-cheat-sheet-9a4e840300b1).
+> Las lista de todos los eventos es muy extensa, puedes consultarla en direfentes páginas en internet, yo te dejo esta de ejemplo. [Elnace](https://omken.medium.com/javascript-events-cheat-sheet-9a4e840300b1).
 
 ## Reaccionando a eventos
 
 Para reaccionar a los eventos podemos asignar un `handler`(controlador) el cual es una función que se ejecuta en caso de un evento. Los *handlers* son una forma de ejecutar código JavaScript en caso de acciones por parte del usuario.
 
-Existen varias formas diferentes de manejar eventos en Javascript. Vamos a ver cada una de ellas, con sus particularidades.
+Existen varias formas diferentes de manejar eventos en Javascript. Vas a ver cada una de ellas, con sus particularidades.
 
 | Forma | Ejemplo | 
 |----------|----------|
@@ -151,7 +151,7 @@ element.addEventListener(event, handler, [options]);
 * `handler`: La función handler.
 * `options`: Un objeto adicional para definir opciones (opcional).
 
-Para eliminar el handler utilizaremos el metodo `removeEventListener` con la siguiente sintaxis.
+Para eliminar el handler utilizarás el metodo `removeEventListener` con la siguiente sintaxis.
 
 ```js
 element.removeEventListener(event, handler, [options]);

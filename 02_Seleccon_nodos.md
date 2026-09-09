@@ -40,7 +40,7 @@ En el tema anterior ya se introdujeron los selectores habituales para hacer sele
 
 Recordar que los métodos modernos de `.querySelector...` utilizan selectores CSS para la especificación de los elementos a busca. También, recordar que los métodos que devuleven mas de un elemento, devuelven una collección y no un `array`.
 
-> Aqui teneis la teoria que vimos en temas anteriores. [enlace](https://github.com/jeskudel/DWEC02/blob/master/01_Objetos_predefinidos_JS.md#metodos-tradicionales)
+> Aqui tienes la teoria que vimos en temas anteriores. [enlace](https://github.com/jeskudel/DWEC02/blob/master/01_Objetos_predefinidos_JS.md#metodos-tradicionales)
 
 ### Acceso a propiedades y atributos
 
@@ -63,7 +63,7 @@ Además, un atributo puede tener un valor o ser un atributo , es decir, simpleme
 </div>
 ```
 
-> Aqui teneis la teoria que vimos en temas anteriores. [enlace](https://github.com/jeskudel/DWEC02/blob/master/01_Objetos_predefinidos_JS.md#modificando-contenido-de-elementos)
+> Aqui tienes la teoria que vimos en temas anteriores. [enlace](https://github.com/jeskudel/DWEC02/blob/master/01_Objetos_predefinidos_JS.md#modificando-contenido-de-elementos)
 
 ### Metodos de seleccion de atributos
 

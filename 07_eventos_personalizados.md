@@ -16,13 +16,13 @@ Argumentos:
 
 * `options` – el objeto con 3 propiedades opcionales:
   * `bubbles`: `true/false`, si es true, entonces el evento se propaga.
-  * `cancelable`: `true/false`: si es true, entonces la “acción predeterminada” puede ser prevenida. Más adelante veremos qué significa para los eventos personalizados.
+  * `cancelable`: `true/false`: si es true, entonces la “acción predeterminada” puede ser prevenida. Más adelante verás qué significa para los eventos personalizados.
   * `composed`: indica si la propagación puede atravesar Shadow DOM o no.
 
   Por defecto, los dos son false: `{bubbles: false, cancelable: false}`.
 
 > #### *Tener en cuenta que ...*
-> En lugar de `Event` también se puede indicar CustomEvent (o alguno de sus objetos derivados). La diferencia radica en que `CustomEvent` se suele utilizar cuando queremos añadir datos personalizados, como vamos a hacer a continuación en las opciones.
+> En lugar de `Event` también se puede indicar CustomEvent (o alguno de sus objetos derivados). La diferencia radica en que `CustomEvent` se suele utilizar cuando queremos añadir datos personalizados, como vas a hacer a continuación en las opciones.
 
 ```js
 const MessageEvent = new CustomEvent("user:data-message", {
@@ -59,7 +59,7 @@ text.addEventListener("mouseenter", () => {
 </script>
 ```
 
-Al margen de este detalle, normalmente los `Event` se usan solamente para eventos reales del navegador. Si necesitamos controlar alguna acción determinada utilizaremos `CustomEvent`, asignándole un nombre de evento y personalizando su funcionamiento.
+Al margen de este detalle, normalmente los `Event` se usan solamente para eventos reales del navegador. Si necesitas controlar alguna acción determinada, utilizarás `CustomEvent`, asignándole un nombre de evento y personalizando su funcionamiento.
 
 ```js
 const event = new Event("click", { detail: 123 });

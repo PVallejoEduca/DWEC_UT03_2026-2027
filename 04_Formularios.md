@@ -2,7 +2,7 @@
 
 ## El elemento `<form>`
 
-La mayor parte de interactividad entre una página web y el usuario tiene lugar a través de un formulario. Es ahí donde nos vamos a encontrar con los campos de texto, botones, checkboxes, listas, etc. en los que el usuario introducirá los datos, que luego se enviarán al servidor.
+La mayor parte de interactividad entre una página web y el usuario tiene lugar a través de un formulario. Es ahí donde te vas a encontrar con los campos de texto, botones, checkboxes, listas, etc. en los que el usuario introducirá los datos, que luego se enviarán al servidor.
 
 Los formularios y sus controles, son objetos del DOM que tienen propiedades únicas, que otros objetos no poseen. Por ejemplo, un formulario tiene una propiedad `action`, que le indica al navegador donde tiene que enviar las entradas del usuario, cuando se envía el formulario. Un control `select` posee una propiedad llamada `selectedIndex`, que nos indica la opción de ese campo que ha sido seleccionada por el usuario.
 
@@ -462,7 +462,7 @@ regexp.test(text);    // true
 regexp.lastIndex      // 117
 ```
 
-Sin embargo, vamos a hacer lo mismo con el flag de la búsqueda global activado. Comprobarás que en este caso, el método `.test()` va buscando las coincidencias sucesivas y va devolviendo en `.lastIndex` la posición donde las ha encontrado.
+Sin embargo, vas a hacer lo mismo con el flag de la búsqueda global activado. Comprobarás que en este caso, el método `.test()` va buscando las coincidencias sucesivas y va devolviendo en `.lastIndex` la posición donde las ha encontrado.
 
 Ten en cuenta que una vez `.test()` devuelve false, la búsqueda se reinicia y comenzarías a buscar desde el principio nuevamente.
 
@@ -484,11 +484,11 @@ regexp.test(text)           // true
 
 Los simbolos `^` y `$` sirven para indicar si queremos que el patrón a buscar este al principio o al final de la linea. Esto no solo es útil cuando diponemos de varias lineas, en el primer [ejemplo](#expresiones-regulares) podemos ver como nos sirve para indicar primeras o ùltimas letras dentro de nuestras palabras del array. 
 
-> Os dejo una `cheatsheet` con todos las opciones posible a utilizar en una `regexp` en este [enlace](https://code.tutsplus.com/a-simple-regex-cheat-sheet--cms-31278t). Además, tambien podeis consultar este articulo de los casos de uso mas habituales para realizar expresiones regulares. [Enlace](https://code.tutsplus.com/8-regular-expressions-you-should-know--net-6149t).
+> Te dejo una `cheatsheet` con todos las opciones posible a utilizar en una `regexp` en este [enlace](https://code.tutsplus.com/a-simple-regex-cheat-sheet--cms-31278t). Además, tambien puedes consultar este articulo de los casos de uso mas habituales para realizar expresiones regulares. [Enlace](https://code.tutsplus.com/8-regular-expressions-you-should-know--net-6149t).
 >
-> Tambien, disponeis de muchas paginas para probar y testear vuestras expresiones regulares que explican en detalle los patrones que se estan configurando, aqui os dejo una de mi elección. [Enlace](https://regexr.com/).
+> Tambien, dispones de muchas paginas para probar y testear tus expresiones regulares que explican en detalle los patrones que se estan configurando, aqui te dejo una de mi elección. [Enlace](https://regexr.com/).
 > 
-> Además podeis practicar jugando con esta página web. [Enalce.](https://regexcrossword.com/)
+> Además puedes practicar jugando con esta página web. [Enalce.](https://regexcrossword.com/)
 
 
 ### Envio de formulario

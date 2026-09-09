@@ -20,7 +20,7 @@ Los tres nodos superiores están disponibles como propiedades de `document`:
 
 ### Nodos hijos
 
-Existen dos términos que vamos a utilizar de ahora en adelante:
+Existen dos términos que vas a utilizar de ahora en adelante:
 
 * **Nodos hijos** (`childNodes`) – elementos que son hijos directos, es decir sus descendientes inmediatos. Por ejemplo, `<head>` y `<body>` son hijos del elemento `<html>`.
 * **Descendientes** – todos los elementos anidados de un elemento dado, incluyendo los hijos, sus hijos y así sucesivamente.
@@ -110,7 +110,7 @@ Las propiedades de navegación enumeradas antes se refieren a todos los nodos. P
 
 Pero para muchas tareas no queremos los nodos de texto o comentarios. Queremos manipular el nodo que representa las etiquetas y formularios de la estructura de la página.
 
-Así que vamos a ver más enlaces de navegación que solo tienen en cuenta los elementos nodos:
+Así que vas a ver más enlaces de navegación que solo tienen en cuenta los elementos nodos:
 
 <p align="center"> 
 <img src="./img/navegacion_nodos_element.png" width="60%" height="60%" style="display: block; margin: 0 auto" />
